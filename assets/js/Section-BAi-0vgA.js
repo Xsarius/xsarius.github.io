@@ -1,0 +1,1 @@
+import{a as o}from"./index-1Y6pVF0H.js";import"./mui-icons-D-Md0Jvs.js";import"./react-vendor-DuwY1BHb.js";import"./emotion-DHlRy_Gf.js";import"./mui-core-Brjf1uaA.js";const i=({component:i})=>o("div",{className:"section-container",children:i});export{i as default};
