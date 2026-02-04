@@ -1,11 +1,18 @@
 {
-  "short_name": "Portfolio",
-  "name": "Kuba Jaloszynski Portfolio Website",
+  "short_name": "Kuba J.",
+  "name": "Kuba Jaloszynski - Portfolio",
+  "description": "Fullstack & Embedded Developer Portfolio",
   "icons": [
-
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait-primary",
+  "theme_color": "#17191c",
+  "background_color": "#17191c"
 }

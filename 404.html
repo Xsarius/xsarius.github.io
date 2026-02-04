@@ -2,18 +2,65 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="/icon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/png" href="/icon.png" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#17191c" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="canonical" href="https://www.kubajaloszynski.com" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Kuba Jaloszynski - Full-Stack Embedded Developer with 4+ years of professional experience. Specializing in firmware development (C, Rust, Zephyr RTOS), modern web applications (React, TypeScript, Tauri), and IoT systems. Based in Copenhagen, Denmark."
     />
+    <meta name="author" content="Kuba Jaloszynski" />
+    <meta name="keywords" content="Full-Stack Embedded Developer, Firmware Developer, React Developer, TypeScript, Rust, C, Zephyr RTOS, Embassy OS, IoT, Wireless Protocols, BLE, WiFi, STM32, Microcontrollers, Tauri, Django, PCB Design, Copenhagen, Denmark, Portfolio" />
+
+    <!-- Resource hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Load fonts with display=swap for better performance -->
+    <link 
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Mono:wght@400;700&family=Source+Code+Pro:wght@400;500;600&display=swap"
+    />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Mono:wght@400;700&family=Source+Code+Pro:wght@400;500;600&display=swap" 
+      rel="stylesheet" 
+      media="print" 
+      onload="this.media='all'" 
+    />
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Mono:wght@400;700&family=Source+Code+Pro:wght@400;500;600&display=swap" rel="stylesheet" />
+    </noscript>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.kubajaloszynski.com" />
+    <meta property="og:site_name" content="Kuba Jaloszynski Portfolio" />
+    <meta property="og:title" content="Kuba Jaloszynski - Full-Stack Embedded Developer" />
+    <meta property="og:description" content="Full-Stack Embedded Developer specializing in React, TypeScript, Rust, C, and IoT. 4+ years of experience building firmware and web applications. Based in Copenhagen, Denmark." />
+    <meta property="og:image" content="https://www.kubajaloszynski.com/img/prof.jpg" />
+    <meta property="og:image:alt" content="Kuba Jaloszynski - Full-Stack Embedded Developer" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.kubajaloszynski.com" />
+    <meta name="twitter:title" content="Kuba Jaloszynski - Full-Stack Embedded Developer" />
+    <meta name="twitter:description" content="Full-Stack Embedded Developer specializing in React, TypeScript, Rust, C, and IoT. Based in Copenhagen, Denmark." />
+    <meta name="twitter:image" content="https://www.kubajaloszynski.com/img/prof.jpg" />
+    <meta name="twitter:image:alt" content="Kuba Jaloszynski - Full-Stack Embedded Developer" />
+
     <link rel="apple-touch-icon" href="/icon.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -25,25 +72,58 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Kuba Jaloszynski Portfolio</title>
-    <script type="module" crossorigin src="/assets/index-B9ku3BME.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/@babel-Ci-rzA-s.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-DYH0GjtO.js">
-    <link rel="modulepreload" crossorigin href="/assets/scheduler-DckzrJrc.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-dom-COzWVqkv.js">
-    <link rel="modulepreload" crossorigin href="/assets/@remix-run-3RjNJ9fY.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-router-CzNJ0ar9.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-router-dom-DkaW0e_f.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-router-hash-link--IPQPeFo.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-is-bRM3snkL.js">
-    <link rel="modulepreload" crossorigin href="/assets/hoist-non-react-statics-c_oXS48o.js">
-    <link rel="modulepreload" crossorigin href="/assets/stylis-FDnFs_-n.js">
-    <link rel="modulepreload" crossorigin href="/assets/@emotion-wHFImRRo.js">
-    <link rel="modulepreload" crossorigin href="/assets/clsx-B-dksMZM.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-transition-group-B-ESzoyQ.js">
-    <link rel="modulepreload" crossorigin href="/assets/@popperjs-BQBsAJpH.js">
-    <link rel="modulepreload" crossorigin href="/assets/@mui-DkpqcusS.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-type-animation-DNt_INgc.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-BJ0trN4g.css">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Kuba Jaloszynski",
+      "alternateName": "Jakub Jaloszynski",
+      "url": "https://www.kubajaloszynski.com",
+      "image": "https://www.kubajaloszynski.com/img/prof.jpg",
+      "jobTitle": "Full-Stack Embedded Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Self-Employed"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Copenhagen",
+        "addressCountry": "Denmark"
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Warsaw University of Technology"
+      },
+      "knowsAbout": [
+        "Embedded Systems",
+        "Firmware Development",
+        "React",
+        "TypeScript",
+        "Rust",
+        "C Programming",
+        "Zephyr RTOS",
+        "Embassy OS",
+        "IoT",
+        "Wireless Protocols",
+        "STM32 Microcontrollers",
+        "Web Development",
+        "PCB Design"
+      ],
+      "sameAs": [
+        "https://github.com/kubajaloszynski",
+        "https://linkedin.com/in/kubajaloszynski"
+      ],
+      "description": "Full-Stack Embedded Developer with 4+ years of professional experience specializing in firmware development, modern web applications, and IoT systems."
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/js/index-BLG16VjP.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/js/react-vendor-DuwY1BHb.js">
+    <link rel="modulepreload" crossorigin href="/assets/js/emotion-DHlRy_Gf.js">
+    <link rel="modulepreload" crossorigin href="/assets/js/mui-icons-D-Md0Jvs.js">
+    <link rel="modulepreload" crossorigin href="/assets/js/mui-core-Brjf1uaA.js">
+    <link rel="stylesheet" crossorigin href="/assets/style-XSar2mVk.css">
   </head>
   <body>
     <div id="root"></div>
